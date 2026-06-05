@@ -8,7 +8,7 @@
 
 **The most data-rich and reliable Facebook Marketplace scraper API available. Extract 40+ fields per listing including seller intelligence, vehicle specs, and HD images. No login required.**
 
-[**🚀 Try it for free on Apify**](YOUR_APIFY_ACTOR_URL_HERE)
+[**🚀 Try it for free on Apify**](https://apify.com/scraperpro/facebookmarketplacescraper?fpr=939u3w&fp_sid=20260605)
 
 </div>
 
