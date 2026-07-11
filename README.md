@@ -2,13 +2,13 @@
 
 <div align="center">
 
-[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](YOUR_APIFY_ACTOR_URL_HERE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_APIFY_ACTOR_URL_HERE)
-[![No Login Required](https://img.shields.io/badge/Login_Required-No-success.svg)](YOUR_APIFY_ACTOR_URL_HERE)
+[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/scraperpro/facebook-marketplace-scraper)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://apify.com/scraperpro/facebook-marketplace-scraper)
+[![No Login Required](https://img.shields.io/badge/Login_Required-No-success.svg)](https://apify.com/scraperpro/facebook-marketplace-scraper)
 
 **The most data-rich and reliable Facebook Marketplace scraper API available. Extract 40+ fields per listing including seller intelligence, vehicle specs, and HD images. No login required.**
 
-[**🚀 Try it for free on Apify**](https://apify.com/scraperpro/facebookmarketplacescraper?fpr=939u3w&fp_sid=20260605)
+[**🚀 Try it for free on Apify**](https://apify.com/scraperpro/facebook-marketplace-scraper?fpr=939u3w&fp_sid=20260605)
 
 </div>
 
@@ -40,7 +40,7 @@ This robust scraper allows you to collect data from **any category** (Vehicles, 
 
 ## 🛠️ How to use it (API Examples)
 
-You can run this scraper via the [Apify Console](YOUR_APIFY_ACTOR_URL_HERE), or integrate it directly into your own applications using Apify's API.
+You can run this scraper via the [Apify Console](https://apify.com/scraperpro/facebook-marketplace-scraper), or integrate it directly into your own applications using Apify's API.
 
 ### Python Integration
 
@@ -64,7 +64,7 @@ run_input = {
 }
 
 # Run the Actor and wait for it to finish
-run = client.actor("YOUR_APIFY_USERNAME/facebook-marketplace-scraper").call(run_input=run_input)
+run = client.actor("scraperpro/facebook-marketplace-scraper").call(run_input=run_input)
 
 # Fetch and print Actor results from the run's dataset
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -95,7 +95,7 @@ const input = {
 };
 
 // Run the Actor and wait for it to finish
-const run = await client.actor("YOUR_APIFY_USERNAME/facebook-marketplace-scraper").call(input);
+const run = await client.actor("scraperpro/facebook-marketplace-scraper").call(input);
 
 // Fetch and print Actor results from the run's dataset
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -127,9 +127,9 @@ The API returns clean, structured JSON data. Here is an example of an extracted 
 
 ## 🤝 Support and Custom Solutions
 
-If you encounter any bugs, please [open an issue on Apify](YOUR_APIFY_ACTOR_URL_HERE/issues). 
+If you encounter any bugs, please [open an issue on Apify](https://apify.com/scraperpro/facebook-marketplace-scraper/issues). 
 
-Need a custom scraping solution or enterprise integration? Feel free to reach out via [Apify](YOUR_APIFY_ACTOR_URL_HERE).
+Need a custom scraping solution or enterprise integration? Feel free to reach out via [Apify](https://apify.com/scraperpro/facebook-marketplace-scraper).
 
 ---
 *Disclaimer: This tool is for educational and research purposes only. Please scrape responsibly and respect Facebook's terms of service.*
