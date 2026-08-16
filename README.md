@@ -3,10 +3,11 @@
 <div align="center">
 
 [![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/scraperpro/facebook-marketplace-scraper)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://apify.com/scraperpro/facebook-marketplace-scraper)
-[![No Login Required](https://img.shields.io/badge/Login_Required-No-success.svg)](https://apify.com/scraperpro/facebook-marketplace-scraper)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://apify.com/scraperpro/facebook-marketplace-scraper)
+[![No Login Required](https://img.shields.io/badge/Login_Required-No-success.svg?style=for-the-badge)](https://apify.com/scraperpro/facebook-marketplace-scraper)
+[![Cost Efficient](https://img.shields.io/badge/Cheapest%20%26%20Fastest-Yes-blue.svg?style=for-the-badge)](https://apify.com/scraperpro/facebook-marketplace-scraper)
 
-**The most data-rich and reliable Facebook Marketplace scraper API available. Extract 40+ fields per listing including seller intelligence, vehicle specs, and HD images. No login required.**
+**The most data-rich, reliable, cheapest, and fastest Facebook Marketplace scraper API available. Extract 40+ fields per listing including seller intelligence, vehicle specs, and HD images. No login required.**
 
 [**🚀 Try it for free on Apify**](https://apify.com/scraperpro/facebook-marketplace-scraper?fpr=939u3w&fp_sid=20260605)
 
@@ -18,18 +19,23 @@
 
 Are you looking to extract data from Facebook Marketplace for lead generation, market research, price monitoring, or dropshipping? 
 
-This robust scraper allows you to collect data from **any category** (Vehicles, Real Estate, Furniture, Electronics) at scale. It uses concurrent processing to deliver results incredibly fast, bypassing the need for Facebook accounts or session management.
+This robust scraper allows you to collect data from **any category** (Vehicles, Real Estate, Furniture, Electronics) at scale. It uses concurrent processing and our unique **Divide-and-Conquer Algorithm** to deliver results incredibly fast, bypassing the need for Facebook accounts or session management. 
+
+### Why is this the best choice?
+> [!IMPORTANT]
+> **Cheapest & Fastest on the Market**: We implemented a fail-fast mechanism and a binary search sweep algorithm that completely skips empty result pages, saving you proxy bandwidth and significantly reducing execution costs!
 
 ## ✨ Key Features
 
 - **🚀 Deep Category Sweeping**: Bypasses Facebook's 1000-listing limit. Paste a broad category URL or search term, and we automatically map it to hundreds of hidden subcategories to extract tens of thousands of listings.
 - **🔗 Copy-Paste URL Intelligence**: Just drop a Facebook Marketplace URL into the scraper and it will flawlessly pass your custom filters (`make`, `model`, etc.) directly into the scraping engine.
 - **🛡️ No Login Required**: Runs completely anonymously. No risk of getting your personal account banned.
+- **⚡ Cheapest & Fastest**: Optimized binary search sweeping and fast-fail logic.
 - **📊 40+ Data Fields**: The most comprehensive data extraction available.
 - **🕵️ Seller Intelligence**: Get seller ratings, review counts, join dates, and locations.
 - **🚗 Auto-Enriched Vehicle Data**: Automatically extracts VIN, mileage, transmission, engine details, and clean title status.
 - **⚡ High-Speed Concurrency**: Run up to 10 parallel threads to extract thousands of listings in minutes.
-- **🌐 Any Location**: Search by `city_slug` and radius to target specific geographical markets.
+- **🌐 Any Location or URL**: Search by `city_slug` and radius, or just paste a direct Facebook search URL!
 
 ## 💡 Use Cases
 
@@ -57,7 +63,6 @@ run_input = {
     "city_slug": "sanfrancisco",
     "min_price": 2000,
     "max_price": 15000,
-    "price_chunk_size": 250,
     "max_results": 50,
     "concurrency": 5,
     "days_since_listed": 3
@@ -88,7 +93,6 @@ const input = {
     "city_slug": "sanfrancisco",
     "min_price": 2000,
     "max_price": 15000,
-    "price_chunk_size": 250,
     "max_results": 50,
     "concurrency": 5,
     "days_since_listed": 3
