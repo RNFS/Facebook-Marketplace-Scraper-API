@@ -7,7 +7,7 @@
 [![No Login Required](https://img.shields.io/badge/Login_Required-No-success.svg?style=for-the-badge)](https://apify.com/scraperpro/facebook-marketplace-scraper)
 [![Cost Efficient](https://img.shields.io/badge/Cheapest%20%26%20Fastest-Yes-blue.svg?style=for-the-badge)](https://apify.com/scraperpro/facebook-marketplace-scraper)
 
-**The most data-rich, reliable, cheapest, and fastest Facebook Marketplace scraper API available. Extract 40+ fields per listing including seller intelligence, vehicle specs, and HD images. No login required.**
+**The fastest and most cost-effective Facebook Marketplace Scraper on Apify. Extract 40+ fields per listing including seller intelligence, vehicle specs, and HD images. No login required.**
 
 [**🚀 Try it for free on Apify**](https://apify.com/scraperpro/facebook-marketplace-scraper?fpr=939u3w&fp_sid=20260605)
 
@@ -19,23 +19,23 @@
 
 Are you looking to extract data from Facebook Marketplace for lead generation, market research, price monitoring, or dropshipping? 
 
-This robust scraper allows you to collect data from **any category** (Vehicles, Real Estate, Furniture, Electronics) at scale. It uses concurrent processing and intelligent dataset sweeping to deliver results incredibly fast, bypassing the need for Facebook accounts or session management. 
+This robust scraper allows you to collect data from **any category** (Vehicles, Real Estate, Furniture, Electronics) at scale. It uses concurrent processing and a lightweight API-driven engine to deliver results instantly, bypassing the need for Facebook accounts or slow headless browsers.
 
-### Why is this the best choice?
+### 🚀 Why is this the best choice?
 > [!IMPORTANT]
-> **Cheapest & Fastest on the Market**: We implemented a fail-fast mechanism that completely skips empty result pages and dead zones, saving you proxy bandwidth and significantly reducing execution costs!
+> **Cheapest & Fastest on the Market**: Most Facebook scrapers use slow, heavy browsers that eat up compute time and expensive proxy bandwidth. Our scraper is built completely differently. We use a lightweight, API-driven engine that extracts data directly. Because it uses a fraction of the resources, you get your datasets at lightning speed while paying significantly less per run!
 
 ## ✨ Key Features
 
-- **🚀 Bypasses the 1,000 Listing Cap**: Paste a broad category URL or search term, and our engine automatically sweeps the entire market to extract tens of thousands of listings without missing a single item.
-- **🔗 Copy-Paste URL Intelligence**: Just drop a Facebook Marketplace URL into the scraper and it will flawlessly pass your custom filters (`make`, `model`, etc.) directly into the scraping engine.
+- **⚡ Lightning Fast & Cheap**: No headless browsers means virtually no wasted proxy bandwidth or compute time. Get results in minutes, not hours.
 - **🛡️ No Login Required**: Runs completely anonymously. No risk of getting your personal account banned.
-- **⚡ Cheapest & Fastest**: Optimized smart sweeping and fast-fail logic.
-- **📊 40+ Data Fields**: The most comprehensive data extraction available.
+- **📦 40+ Data Fields**: The most comprehensive data extraction available.
 - **🕵️ Seller Intelligence**: Get seller ratings, review counts, join dates, and locations.
 - **🚗 Auto-Enriched Vehicle Data**: Automatically extracts VIN, mileage, transmission, engine details, and clean title status.
-- **⚡ High-Speed Concurrency**: Run up to 10 parallel threads to extract thousands of listings in minutes.
-- **🌐 Any Location or URL**: Search by `city_slug` and radius, or just paste a direct Facebook search URL!
+- **🔗 Copy-Paste URL Intelligence**: Just drop a Facebook Marketplace URL into the scraper and it will flawlessly pass your custom filters (`make`, `model`, etc.) directly into the scraping engine.
+- **🚀 Bypasses the 1,000 Listing Cap**: Our engine automatically sweeps the entire market natively to extract tens of thousands of listings without missing a single item.
+- **⚡ High-Speed Concurrency**: Run up to 10 parallel threads to extract thousands of listings instantly.
+- **🌐 Any Location Worldwide**: Search by `city_slug` and radius, or just paste a direct Facebook search URL!
 
 ## 💡 Use Cases
 
