@@ -110,6 +110,9 @@ items.forEach((item) => {
 
 ## 📈 Sample Output Data
 
+### 🖼️ Apify Dataset View
+![Apify Dataset Preview](assets/Facebook_MarketPlace_Scraper.png)
+
 The API returns clean, structured JSON data. Here is an example of an extracted vehicle listing:
 
 ```json
