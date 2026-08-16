@@ -19,18 +19,18 @@
 
 Are you looking to extract data from Facebook Marketplace for lead generation, market research, price monitoring, or dropshipping? 
 
-This robust scraper allows you to collect data from **any category** (Vehicles, Real Estate, Furniture, Electronics) at scale. It uses concurrent processing and our unique **Divide-and-Conquer Algorithm** to deliver results incredibly fast, bypassing the need for Facebook accounts or session management. 
+This robust scraper allows you to collect data from **any category** (Vehicles, Real Estate, Furniture, Electronics) at scale. It uses concurrent processing and intelligent dataset sweeping to deliver results incredibly fast, bypassing the need for Facebook accounts or session management. 
 
 ### Why is this the best choice?
 > [!IMPORTANT]
-> **Cheapest & Fastest on the Market**: We implemented a fail-fast mechanism and a binary search sweep algorithm that completely skips empty result pages, saving you proxy bandwidth and significantly reducing execution costs!
+> **Cheapest & Fastest on the Market**: We implemented a fail-fast mechanism that completely skips empty result pages and dead zones, saving you proxy bandwidth and significantly reducing execution costs!
 
 ## ✨ Key Features
 
-- **🚀 Deep Category Sweeping**: Bypasses Facebook's 1000-listing limit. Paste a broad category URL or search term, and we automatically map it to hundreds of hidden subcategories to extract tens of thousands of listings.
+- **🚀 Bypasses the 1,000 Listing Cap**: Paste a broad category URL or search term, and our engine automatically sweeps the entire market to extract tens of thousands of listings without missing a single item.
 - **🔗 Copy-Paste URL Intelligence**: Just drop a Facebook Marketplace URL into the scraper and it will flawlessly pass your custom filters (`make`, `model`, etc.) directly into the scraping engine.
 - **🛡️ No Login Required**: Runs completely anonymously. No risk of getting your personal account banned.
-- **⚡ Cheapest & Fastest**: Optimized binary search sweeping and fast-fail logic.
+- **⚡ Cheapest & Fastest**: Optimized smart sweeping and fast-fail logic.
 - **📊 40+ Data Fields**: The most comprehensive data extraction available.
 - **🕵️ Seller Intelligence**: Get seller ratings, review counts, join dates, and locations.
 - **🚗 Auto-Enriched Vehicle Data**: Automatically extracts VIN, mileage, transmission, engine details, and clean title status.
